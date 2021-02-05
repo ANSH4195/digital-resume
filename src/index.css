@@ -1,13 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0a0d12;
+  color: white;
+  overflow-y: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #ccccff;
+}
+
+a:hover {
+  color: #ccccff;
+}
+
+.bg-dark {
+  background: black !important;
+}
+
+.bg-focus {
+  background: #283949;
+}
+
+.line-height {
+  line-height: 1.1;
+}
+
+.focus-radius {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.bg-image {
+  background: url('./bg.png') center center no-repeat;
+  background-position: -100px -200px;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+}
+
+.title {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: white;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.subtitle {
+  border-top: 2px dotted white;
+  border-bottom: 2px dotted white;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.inner-title {
+  font-size: 1.8rem;
+}
+
+.inner-subtitle {
+  font-size: 1.4rem;
+}
+
+.field {
+  line-height: 1;
+  color: #ccccff;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.3);
 }
